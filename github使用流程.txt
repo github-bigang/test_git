@@ -1,0 +1,43 @@
+1. 切换到自己的工作分支
+git checkout super or git checkout -b super(create and checkout for initialization)
+2.提交工作分支的修改
+git add .
+git commit -m 'comments'
+3.回到主分支
+git checkout master
+4.获取远程最新的修改，此时不会产生冲突
+git pull
+5.回到工作分支
+git checkout super
+6.用rebase 合并主干的修改，如果有冲突在此时解决
+git rebase master
+7.回到主分支
+git checkout master
+8.合并工作分支的修改，此时不会产生冲突
+git merge super
+9.提交到远程主干
+git push
+
+
+git checkout -b dev   切换分支
+git log -2  查看修改的东西
+创建全新的分支
+git checkout -b fix#343
+
+git push origin fix#343      
+之后提交合并请求(pull requests)，将新分支合并到dev分支上
+
+/c/Users/Administrator/Kahla.App    存储地址
+
+
+
+
+
+
+
+
+
+
+
+
+
