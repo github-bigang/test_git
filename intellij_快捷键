@@ -1,0 +1,48 @@
+
+intel IDEA 快捷键使用  
+
+ ctrl+N 查找所有类  ctrl+shift+N  打开导航类的搜索    类似eclipse的 ctrl+T  ctrl+shift+T
+ 
+ 补全代码 ctrl+空格     类似于	alt+?
+ 
+ alt+F7       查找所有使用的地方          ctrl+Q	查看文档方法
+ 
+ ctrl+B      查看声明的位置        		  ctrl+F12  类似于eclipse的 ctrl+o
+ 
+ shift+F6   重命名    类似eclipse的 shift+alt+r			
+ 
+ 完成interface接口的override  ctrl+I         基类的override  ctrl+o
+ ==============================================================================
+ The SmartType code completion greatly helps to find methods and variables 
+ that are suitable in the current context
+							ctrl+shift+空格
+							
+	alt+insert    自动添加get,set方法                     psvm直接添加main方法
+	
+
+	提升IntellijIDEA运行速度的方法  intellij部署javaweb服务器tomcat,修改资源之后，看到最新的效果
+	intellij使用添加外部jar包的方法，点击project struct选项
+	
+	serverlet在web工程里面的建立===============
+	
+	maven工程的建立===>javaSE工程====》maven-archetype-quickstart骨架
+	Project created from Archetype in dir: C:\Users\thinkpad\AppData\Local\Temp\archetypetmp\maven_test
+	-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8
+	
+发布web工程到tomcat9服务器，需要tomcat9:run命令，写java代码的地方，在src下新建文件夹
+	
+site模块用于统一管理版本，而不是继承	
+
+=============================gradle项目=====================
+
+=======================springboot      and       services==================项目建立
+	
+把eclipse的maven项目，导入到intellij项目里面  一：new --->import existing model -->选择eclipse
+											  二：在 maven project 点击+符号，导入pom文件，自动添加依赖
+	
+	一：IDEA导出到eclipse,在file文件里面有选项 
+	二：打开eclipse,选择 open projects from file system
+	
+======================IDEA,操作mysql数据库的可视化，非常方便==============	
+	
+	
